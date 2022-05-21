@@ -1,0 +1,81 @@
+/*
+         HEADER STYLES
+*/
+.header {
+  height: 3.9375rem;
+  background-color: rgba(0, 0, 0, 0.87);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 3.4375rem;
+}
+
+.header__nav-start h1 {
+  color: #1ce783;
+  font-size: 1.6rem;
+  font-weight: 800;
+  letter-spacing: 4px;
+  text-transform: lowercase
+}
+
+
+.header__nav-mid ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.75rem 0;
+}
+
+
+.header__nav-mid ul li {
+  margin-right: 1rem;
+}
+
+.header__nav-mid ul li a {
+  padding: 8px 15px;
+  font-size: 0.9rem;
+}
+
+.header__nav-mid ul li a:hover {
+  border-radius: 5px;
+  background-color: rgba(103, 103, 144, 0.3);
+  color: white;
+}
+
+
+
+
+.header__nav-end {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__nav-end--search {
+  margin-right: 2rem;
+}
+
+.header__nav-end .fa.fa-search {
+  color: white;
+  font-size: 1.4rem;
+  cursor: pointer;
+  padding: 7px 10px;
+}
+
+.header__nav-end .fa.fa-search:hover {
+  border-radius: 5px;
+  background-color: rgba(103, 103, 144, 0.3);
+}
+
+.header__nav-end--image-container {
+  padding: 5px 5px 2px 5px;
+}
+
+.header__nav-end--image-container img {
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  border: 3px solid #1ce783;
+  cursor: pointer;
+}
