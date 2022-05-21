@@ -1,0 +1,82 @@
+.home-screen {
+  width: 100%;
+  height: 100vh;
+  color: white;
+  z-index: 1;
+  position: relative;
+}
+
+.home-screen__bg {
+  height: 100%;
+  width: 100%;
+  background-image: url('https://cdn.shopify.com/s/files/1/0275/9209/7837/products/PP10251courage_1024x1024@2x.jpg?v=1620076266');
+  /* background-repeat: no-repeat;*/
+  object-fit: cover;
+  object-position: cover;
+  background-repeat: no-repeat;
+  background-size: 100% 100vh;
+  z-index: -121221;
+  position: absolute;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+}
+
+.home-screen__info {
+  height: 720px;
+  width: 1800px;
+  display: flex;
+  margin: auto;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-color: rgba(0, 0, 0, .7);
+  padding: 0 20px 20px 20px;
+}
+
+.left h1 {
+  font-size: 5rem;
+  line-height: 1;
+}
+
+.left h3 {
+  margin: 10px 0;
+}
+
+.left p {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.right {
+  width: 1800px;
+}
+
+
+.home-screen__info--buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 240px;
+  margin-top: 10px;
+}
+
+
+.home-screen__info--btn {
+  background-color: white;
+  color: black;
+  padding: 10px 30px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.home-screen__info--btn.btn-more-info {
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+  cursor: pointer;
+}

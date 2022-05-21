@@ -20,9 +20,10 @@ code {
   box-sizing: border-box;
 }
 
-main {
+/* main {
   padding: 3rem 3.4375rem;
-}
+  min-height: 80vh;
+} */
 
 img {
   width: 50px;
